@@ -7,6 +7,7 @@ function App() {
     <>
       <div>
         <h1> portfolio</h1>
+        <h2> hello</h2>
       </div>
     </>
   )
