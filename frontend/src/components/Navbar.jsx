@@ -31,6 +31,24 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-[#e8e8e8] transition-colors">Projects</a>
           <a href="#skills" className="hover:text-[#e8e8e8] transition-colors">Skills</a>
           <a href="#experience" className="hover:text-[#e8e8e8] transition-colors">Experience</a>
+
+          <a
+            href="mailto:pratyakshgupta887@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
+          >
+            <img
+              src="https://skillicons.dev/icons?i=gmail"
+              alt="LeetCode"
+              width={20}
+              height={20}
+              className="opacity-50 group-hover:opacity-100 transition-opacity"
+            />
+            Gmail
+          </a>
+
+          
           <a
             href="https://www.linkedin.com/in/pratyaksh-gupta-348556299/"
             target="_blank"

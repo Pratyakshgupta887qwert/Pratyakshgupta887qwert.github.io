@@ -46,7 +46,6 @@ export default function Footer() {
               height={20}
               className="opacity-50 group-hover:opacity-100 transition-opacity"
             />
-            LinkedIn
           </a>
           <a
             href="https://github.com/Pratyakshgupta887qwert"
@@ -61,7 +60,6 @@ export default function Footer() {
               height={20}
               className="opacity-50 group-hover:opacity-100 transition-opacity"
             />
-            GitHub
           </a>
           <a
             href="tel:+919927230076"

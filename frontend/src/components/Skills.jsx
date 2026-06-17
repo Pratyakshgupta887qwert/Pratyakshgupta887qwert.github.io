@@ -4,12 +4,16 @@ const SKILL_GROUPS = [
   {
     domain: "Frontend",
     skills: [
+      { name: "Html", icon: "html" },
       { name: "React", icon: "react" },
       { name: "Next.js", icon: "nextjs" },
       { name: "TypeScript", icon: "typescript" },
+      { name: "CSS", icon: "css" },
       { name: "Tailwind", icon: "tailwind" },
+      { name: "Bootstrap", icon: "bootstrap" },
       { name: "Redux", icon: "redux" },
       { name: "Vite", icon: "vite" },
+      { name: "Vue", icon: "vue" },
     ],
   },
   {
@@ -22,10 +26,12 @@ const SKILL_GROUPS = [
   {
     domain: "Backend",
     skills: [
+      { name: "SpringBoot", icon: "spring" },
       { name: "Node.js", icon: "nodejs" },
       { name: "ASP.NET", icon: "dotnet" },
-      { name: "Python", icon: "python" },
       { name: "FastAPI", icon: "fastapi" },
+      { name: "Postman", icon: "postman" },
+      { name: "Power", icon: "powershell" },
     ],
   },
   {
@@ -41,19 +47,37 @@ const SKILL_GROUPS = [
     skills: [
       { name: "MongoDB", icon: "mongodb" },
       { name: "MySQL", icon: "mysql" },
+      { name: "PostgreSQL", icon: "postgres" },
     ],
   },
   {
-    domain: "Tools & Cloud",
+    domain: "Cloud",
+    skills: [
+      { name: "Docker", icon: "docker" },
+      { name: "AWS", icon: "aws" },
+      { name: "Google Cloud", icon: "gcp" },
+      { name: "Azure", icon: "azure" },
+      { name: "Linux", icon: "linux" },
+      { name: "Ubuntu", icon: "ubuntu" },
+    ],
+  },
+
+   {
+    domain: "Tools & Platforms",
     skills: [
       { name: "Git", icon: "git" },
       { name: "GitHub", icon: "github" },
-      { name: "AWS", icon: "aws" },
-      { name: "Linux", icon: "linux" },
+      { name: "GitHub Actions", icon: "githubactions" },
+      { name: "npm", icon: "npm" },
       { name: "VS Code", icon: "vscode" },
-      { name: "Docker", icon: "docker" },
+      { name: "Notion", icon: "notion" },
+      { name: "Obsidian", icon: "obsidian" },
+      { name: "Vercel", icon: "vercel" },
+      { name: "VisualStudio", icon: "visualstudio" },
+      { name: "VSCode", icon: "vscode" },
     ],
   },
+
   {
     domain: "Languages",
     skills: [
@@ -61,6 +85,8 @@ const SKILL_GROUPS = [
       { name: "C#", icon: "cs" },
       { name: "Java", icon: "java" },
       { name: "C", icon: "c" },
+      { name: "Python", icon: "python" },
+      { name: "Rust", icon: "rust" },
     ],
   },
 ];

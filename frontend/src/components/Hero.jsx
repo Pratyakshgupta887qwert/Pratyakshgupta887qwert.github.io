@@ -22,13 +22,13 @@ export default function Hero() {
         {/* Availability badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#1e1e1e] bg-[#111]/60 text-xs font-medium text-[#888] mb-8">
           <span className="w-2 h-2 rounded-full bg-[#c8f135] animate-pulse" />
-          Available for opportunities · GLA University, Mathura
+          Available for opportunities
         </div>
 
         {/* Name — large display like Portavia */}
         <div className="mb-6">
           <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-3">
-            Full-Stack Developer & ML Engineer
+            Full-Stack & .NET Developer & ML Engineer
           </p>
           <h1 className="text-[clamp(3rem,10vw,8rem)] font-black leading-none tracking-tight text-[#e8e8e8] uppercase">
             PRATYAKSH
@@ -41,7 +41,7 @@ export default function Hero() {
         {/* Tagline + CTA row */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mt-10">
           <p className="text-[#666] text-base leading-relaxed max-w-sm">
-            Building cross-platform applications with intelligent backends — from React Native to ASP.NET Core to ML pipelines.
+            Building cross-platform applications with intelligent backends — from React Native to ASP.NET Core to ML pipelines — I craft seamless experiences that blend functionality and innovation & Open-Source Contributor
           </p>
 
           <div className="flex items-center gap-3 shrink-0">

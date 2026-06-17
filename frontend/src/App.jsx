@@ -16,8 +16,8 @@ export default function App() {
       <main className="max-w-6xl mx-auto px-6 md:px-12 space-y-32 pt-32 pb-16">
         <Hero />
         <Projects />
-        <Experience />
         <Skills />
+        <Experience />
       </main>
       <Footer />
     </div>
