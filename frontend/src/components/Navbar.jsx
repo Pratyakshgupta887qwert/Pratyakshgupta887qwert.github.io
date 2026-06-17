@@ -32,7 +32,7 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-[#e8e8e8] transition-colors">Skills</a>
           <a href="#experience" className="hover:text-[#e8e8e8] transition-colors">Experience</a>
           <a
-            href="https://www.linkedin.com/in/pratyaksh-gupta"
+            href="https://www.linkedin.com/in/pratyaksh-gupta-348556299/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
