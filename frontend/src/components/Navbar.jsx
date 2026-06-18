@@ -14,15 +14,16 @@ export default function Navbar() {
       scrolled ? 'bg-[#0a0a0a]/90 backdrop-blur-md border-b border-[#1a1a1a]' : 'bg-transparent'
     }`}>
       <div className="max-w-6xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
+
+
         {/* Logo */}
-        {/* <a href="#" className="group flex items-center gap-2">
-          <span className="w-7 h-7 rounded-lg bg-[#c8f135] flex items-center justify-center text-[#0a0a0a] font-black text-sm">
-            PG
-          </span>
-          <span className="font-semibold tracking-tight text-[#e8e8e8] group-hover:text-white transition-colors">
-            Pratyaksh<span className="text-[#c8f135]">.</span>
-          </span>
-        </a> */}
+        <a href="#" className="group flex items-center gap-2">
+  <img
+    src="phto.jpg"
+    alt="Profile"
+    className="w-10 h-10 rounded-lg object-cover"
+  />
+</a>
 
         
 
@@ -36,11 +37,11 @@ export default function Navbar() {
             href="mailto:pratyakshgupta887@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#e8e8e8] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=gmail"
-              alt="LeetCode"
+              alt="Gmail"
               width={20}
               height={20}
               className="opacity-500 group-hover:opacity-100 transition-opacity"
@@ -53,7 +54,7 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/pratyaksh-gupta-348556299/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#e8e8e8] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=linkedin"
@@ -68,7 +69,7 @@ export default function Navbar() {
             href="https://github.com/Pratyakshgupta887qwert"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#e8e8e8] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=github"
@@ -83,7 +84,7 @@ export default function Navbar() {
             href="https://leetcode.com/u/Pratyaksh_Gupta_04/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#e8e8e8] transition-colors font-medium group"
           >
             <img
               src="2944960.webp"
@@ -96,9 +97,9 @@ export default function Navbar() {
           </a>
           <a
             href="#contact"
-            className="px-4 py-1.5 rounded-full bg-[#c8f135] text-[#0a0a0a] font-semibold text-xs hover:bg-[#d4f550] transition-colors"
+            className="px-10 py-2 rounded-full bg-[#c8f135] text-[#0a0a0a] font-semibold text-xs hover:bg-[#d4f550] transition-colors"
           >
-            Let's Talk
+            Contact me
           </a>
         </div>
 

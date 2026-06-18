@@ -49,15 +49,15 @@ export default function Hero() {
               href="#projects"
               className="h-11 px-6 inline-flex items-center justify-center rounded-full bg-[#c8f135] text-[#0a0a0a] font-semibold text-sm hover:bg-[#d4f550] transition-colors"
             >
-              View My Work
+              View My Work →
             </a>
             <a
-              href="https://github.com/Pratyakshgupta887qwert"
+              href="https://drive.google.com/file/d/1rd0et5cm0DrSEjOdyF5c-fzB0fHBnCkX/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="h-11 px-6 inline-flex items-center justify-center rounded-full border border-[#1e1e1e] text-[#888] font-medium text-sm hover:text-[#e8e8e8] hover:border-[#333] transition-colors"
             >
-              GitHub →
+              View My Resume →
             </a>
           </div>
         </div>
