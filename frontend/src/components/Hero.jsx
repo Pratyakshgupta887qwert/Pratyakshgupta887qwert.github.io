@@ -20,14 +20,14 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-6 md:px-12 w-full">
         {/* Availability badge */}
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#1e1e1e] bg-[#111]/60 text-xs font-medium text-[#888] mb-8">
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 bg-[#111]/60 text-xs font-medium text-[#888] mb-8">
           <span className="w-2 h-2 rounded-full bg-[#c8f135] animate-pulse" />
           Available for opportunities
         </div>
 
         {/* Name — large display like Portavia */}
         <div className="mb-6">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-3">
+          <p className="text-xs uppercase tracking-[0.3em] text-gray-400 font-semibold mb-3">
             Full-Stack & .NET Developer & ML Engineer
           </p>
           <h1 className="text-[clamp(3rem,10vw,8rem)] font-black leading-none tracking-tight text-[#e8e8e8] uppercase">
@@ -40,7 +40,7 @@ export default function Hero() {
 
         {/* Tagline + CTA row */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mt-10">
-          <p className="text-[#666] text-base leading-relaxed max-w-sm">
+          <p className="text-gray-500 text-base leading-relaxed max-w-sm">
             Building cross-platform applications with intelligent backends — from React Native to ASP.NET Core to ML pipelines — I craft seamless experiences that blend functionality and innovation & Open-Source Contributor
           </p>
 
@@ -65,11 +65,11 @@ export default function Hero() {
         {/* Stats bar */}
         <div className="mt-16 pt-8 border-t border-[#111] grid grid-cols-3 gap-6 max-w-md">
           <div>
-            <p className="text-2xl font-black text-[#c8f135]">2+</p>
+            <p className="text-2xl font-black text-[#c8f135]">6+</p>
             <p className="text-xs text-[#555] mt-0.5 uppercase tracking-wider">Projects</p>
           </div>
           <div>
-            <p className="text-2xl font-black text-[#e8e8e8]">5+</p>
+            <p className="text-2xl font-black text-[#e8e8e8]">10+</p>
             <p className="text-xs text-[#555] mt-0.5 uppercase tracking-wider">Certifications</p>
           </div>
           <div>

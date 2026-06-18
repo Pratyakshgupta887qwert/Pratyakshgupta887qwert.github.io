@@ -27,7 +27,7 @@ export default function Navbar() {
         
 
         {/* Nav links */}
-        <div className="hidden md:flex items-center gap-7 text-sm font-medium text-[#888]">
+        <div className="hidden md:flex items-center gap-7 text-sm font-medium text-gray-400">
           <a href="#projects" className="hover:text-[#e8e8e8] transition-colors">Projects</a>
           <a href="#skills" className="hover:text-[#e8e8e8] transition-colors">Skills</a>
           <a href="#experience" className="hover:text-[#e8e8e8] transition-colors">Experience</a>
@@ -36,14 +36,14 @@ export default function Navbar() {
             href="mailto:pratyakshgupta887@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=gmail"
               alt="LeetCode"
               width={20}
               height={20}
-              className="opacity-50 group-hover:opacity-100 transition-opacity"
+              className="opacity-500 group-hover:opacity-100 transition-opacity"
             />
             Gmail
           </a>
@@ -53,14 +53,14 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/pratyaksh-gupta-348556299/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=linkedin"
               alt="LinkedIn"
               width={20}
               height={20}
-              className="opacity-50 group-hover:opacity-100 transition-opacity"
+              className="opacity-500 group-hover:opacity-100 transition-opacity"
             />
             LinkedIn
           </a>
@@ -68,30 +68,29 @@ export default function Navbar() {
             href="https://github.com/Pratyakshgupta887qwert"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
           >
             <img
               src="https://skillicons.dev/icons?i=github"
               alt="GitHub"
               width={20}
               height={20}
-              className="opacity-50 group-hover:opacity-100 transition-opacity"
+              className="opacity-500 group-hover:opacity-100 transition-opacity"
             />
             GitHub
           </a>
-
           <a
             href="https://leetcode.com/u/Pratyaksh_Gupta_04/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 text-[#555] hover:text-[#c8f135] transition-colors font-medium group"
+            className="flex items-center gap-2 text-gray-400 hover:text-[#c8f135] transition-colors font-medium group"
           >
             <img
               src="2944960.webp"
               alt="LeetCode"
               width={20}
               height={20}
-              className="opacity-50 group-hover:opacity-100 transition-opacity"
+              className="opacity-500 group-hover:opacity-100 transition-opacity"
             />
             LeetCode
           </a>
