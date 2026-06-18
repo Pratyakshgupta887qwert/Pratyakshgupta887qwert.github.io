@@ -48,19 +48,16 @@ const EDUCATION = [
     degree: "B.Tech Computer Science",
     institution: "GLA University, Mathura",
     period: "Expected Jun 2027",
-    score: "70.5%",
   },
   {
     degree: "Intermediate (12th)",
     institution: "St. Fidelis Sr. Sec. School, Aligarh",
     period: "May 2023",
-    score: "70%",
   },
   {
     degree: "High School (10th)",
     institution: "St. Fidelis Sr. Sec. School, Aligarh",
     period: "May 2021",
-    score: "83%",
   },
 ];
 
