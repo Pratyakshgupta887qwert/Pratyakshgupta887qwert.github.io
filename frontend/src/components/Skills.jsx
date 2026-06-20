@@ -158,29 +158,6 @@ export default function Skills() {
             </div>
           ))}
         </div>
-
-        {/* Certifications strip */}
-        <div className="mt-16 rounded-2xl border border-[#141414] bg-[#0d0d0d] p-6">
-          <p className="text-[10px] uppercase tracking-[0.3em] text-[#444] font-semibold mb-4">
-            Certifications
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              "Oracle Cloud Infrastructure 2025 AI Foundations",
-              "Prompting Essentials — Coursera",
-              "AI Essentials — Coursera",
-              "IT Automation with Python — Coursera",
-              "AI & ML — IBM",
-            ].map((cert, i) => (
-              <span
-                key={i}
-                className="text-xs px-3 py-1.5 rounded-lg bg-[#111] border border-[#1a1a1a] text-[#555] hover:text-[#c8f135] hover:border-[#c8f135]/20 transition-colors cursor-default"
-              >
-                {cert}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

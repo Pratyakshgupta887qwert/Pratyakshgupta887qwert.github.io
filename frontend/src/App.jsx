@@ -4,7 +4,9 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Certifications from './components/Certifications';
 import Footer from './components/Footer';
+import Achievements from './components/Achivements';
 
 export default function App() {
   return (
@@ -16,8 +18,10 @@ export default function App() {
       <main className="max-w-6xl mx-auto px-6 md:px-12 space-y-32 pt-32 pb-16">
         <Hero />
         <Projects />
+        <Achievements />
         <Skills />
         <Experience />
+        <Certifications />
       </main>
       <Footer />
     </div>

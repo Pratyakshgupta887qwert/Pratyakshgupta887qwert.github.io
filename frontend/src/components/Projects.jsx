@@ -51,7 +51,7 @@ export default function Projects() {
             <h2
               className="text-4xl md:text-5xl font-black text-[#e8e8e8] uppercase leading-none"
             >
-              FEATURED<br />
+              FEATURED &amp;{" "}
               <span style={{ WebkitTextStroke: '1.5px #333', color: 'transparent' }}>
                 PROJECTS
               </span>
@@ -122,38 +122,6 @@ export default function Projects() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* 1st Prize callout */}
-
-<div className="mt-6 rounded-2xl border border-[#1a1a1a] bg-[#c8f135]/5 p-6 flex items-center justify-between flex-wrap gap-4">
-          <div className="flex items-center gap-4">
-            <img
-  src="Harvard_University_coat_of_arms.svg"
-  alt="Trophy"
-  className="w-8 h-8 object-contain"
-/>
-            <div>
-              <p className="font-bold text-[#e8e8e8] text-sm"> Aspire Leaders Program 2026 (Global Cohort)</p>
-              <p className="text-xs text-[#555] mt-0.5">Aspire Institute , New York, USA · Apr 2026</p>
-            </div>
-          </div>
-          <span className="text-xs text-[#c8f135] font-semibold tracking-wider uppercase">Global leadership initiative supported by Harvard Business School faculty</span>
-        </div>
-
-        <div className="mt-6 rounded-2xl border border-[#1a1a1a] bg-[#c8f135]/5 p-6 flex items-center justify-between flex-wrap gap-4">
-          <div className="flex items-center gap-4">
-            <img
-  src="unnamed.webp"
-  alt="Trophy"
-  className="w-8 h-8 object-contain"
-/>
-            <div>
-              <p className="font-bold text-[#e8e8e8] text-sm">1st Prize — Quantathon, TechNavya 2025</p>
-              <p className="text-xs text-[#555] mt-0.5">GLA University · ₹10,000 Cash Award · Feb 2025</p>
-            </div>
-          </div>
-          <span className="text-xs text-[#c8f135] font-semibold tracking-wider uppercase">Competition Winner</span>
         </div>
       </div>
     </section>
