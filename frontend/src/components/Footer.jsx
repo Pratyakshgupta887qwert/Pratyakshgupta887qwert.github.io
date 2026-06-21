@@ -77,7 +77,7 @@ export default function Footer() {
             Pratyaksh Gupta · Full-Stack Developer
           </span>
           <span className="text-xs font-mono text-[#3a4a00]">
-            © {new Date().getFullYear()} · Built with React &amp; Tailwind
+            © {new Date().getFullYear()} · All Rights Reserved to Pratyaksh Gupta
           </span>
         </div>
       </div>
