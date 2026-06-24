@@ -65,7 +65,7 @@ export default function Hero() {
         {/* Stats bar */}
         <div className="mt-16 pt-8 border-t border-[#111] grid grid-cols-3 gap-6 max-w-md">
           <div>
-            <p className="text-2xl font-black text-[#c8f135]">6+</p>
+            <p className="text-2xl font-black text-[#c8f135]">7+</p>
             <p className="text-xs text-[#555] mt-0.5 uppercase tracking-wider">Projects</p>
           </div>
           <div>

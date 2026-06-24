@@ -279,19 +279,19 @@ export default function Certifications() {
         {/* Bottom summary strip */}
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
           <div className="rounded-2xl border border-[#141414] bg-[#0d0d0d] p-5">
-            <p className="text-2xl font-black text-[#c8f135]">5</p>
+            <p className="text-2xl font-black text-[#c8f135]">5+</p>
             <p className="text-xs text-[#444] mt-0.5 uppercase tracking-wider">Certificates</p>
           </div>
           <div className="rounded-2xl border border-[#141414] bg-[#0d0d0d] p-5">
-            <p className="text-2xl font-black text-[#e8e8e8]">3</p>
+            <p className="text-2xl font-black text-[#e8e8e8]">3+</p>
             <p className="text-xs text-[#444] mt-0.5 uppercase tracking-wider">Platforms</p>
           </div>
           <div className="rounded-2xl border border-[#141414] bg-[#0d0d0d] p-5">
-            <p className="text-2xl font-black text-[#e8e8e8]">AI/ML</p>
+            <p className="text-2xl font-black text-[#e8e8e8]">Emerging technologies</p>
             <p className="text-xs text-[#444] mt-0.5 uppercase tracking-wider">Focus Area</p>
           </div>
           <div className="rounded-2xl border border-[#141414] bg-[#0d0d0d] p-5">
-            <p className="text-2xl font-black text-[#c8f135]">2025</p>
+            <p className="text-2xl font-black text-[#c8f135]">2026</p>
             <p className="text-xs text-[#444] mt-0.5 uppercase tracking-wider">Latest</p>
           </div>
         </div>
