@@ -19,7 +19,7 @@ const CERTIFICATIONS = [
     id: 2,
     name: "Google Prompting Essentials Specialization",
     issuer: "Coursera / Google",
-    issuerLogo: "12.png",
+    issuerLogo: "coursera.png",
     detail:
       "Covers effective prompt engineering techniques, chain-of-thought prompting, few-shot learning, and best practices for working with large language models.",
     issued: "Dec 2024",
