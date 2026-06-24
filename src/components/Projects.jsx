@@ -4,24 +4,24 @@ const PROJECTS = [
   {
     title: "SmartSpend AI",
     category: "Full-Stack · AI",
-    year: "2025",
+    year: "2026",
     description:
       "Intelligent multi-platform expense management utility featuring automated receipt data extraction via Gemini API and conversational insight streams. Built with React web + React Native mobile sharing a single ASP.NET Core backend.",
     tags: ["React", "React Native", "ASP.NET Core", "Gemini API", "Expo"],
     color: "#c8f135",
     size: "large",
-    link: "#",
+    link: "https://github.com/Pratyakshgupta887qwert/SmartSpend.git",
   },
   {
     title: "SyncSphere",
     category: "Backend · Full-Stack",
-    year: "2024",
+    year: "2026",
     description:
       "Global meeting scheduler with accurate UTC normalization, real-time timezone conversion via Luxon, and a scalable REST API architecture. Built with React, C# .NET 8, and MongoDB.",
     tags: ["React", "C# .NET 8", "MongoDB", "REST API", "Luxon"],
     color: "#e8e8e8",
     size: "small",
-    link: "https://github.com/Pratyakshgupta887qwert",
+    link: "https://github.com/Pratyakshgupta887qwert/SyncSphere.git",
   },
   {
     title: "Dental Caries Detection",
@@ -32,7 +32,51 @@ const PROJECTS = [
     tags: ["Python", "TensorFlow", "Keras", "CNN", "Google Colab"],
     color: "#888",
     size: "small",
-    link: "https://github.com/Pratyakshgupta887qwert",
+    link: "https://github.com/Pratyakshgupta887qwert/Deep-learning-AI-ML.git",
+  },
+  {
+    title: "TechVerse",
+    category: "Full-Stack · Community",
+    year: "2026",
+    description:
+      "A community-driven platform curating and sharing the coolest tech trends, news, and innovations in a modern, clean UI. TechVerse bridges the gap between content consumption and community building. It allows tech enthusiasts and developers to submit deep-dive articles while actively shaping the platform through open-source GitHub contributions. The project focuses on scaling engagement by integrating a dedicated community space (like Discord), leveraging author networks for organic growth, and transitioning passive readers into active contributors through peer reviews, upvoting systems, and collaborative development.",
+    tags: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Community"],
+    color: "#c8f135",
+    size: "large",
+    link: "https://github.com/Pratyakshgupta887qwert/TechVerse.git",
+  },
+  {
+    title: "WhatsApp Bulk Message Sender",
+    category: "Automation · Scripting",
+    year: "2025",
+    description:
+      "A Python automation tool to send WhatsApp messages in bulk using Selenium and Excel. Safely message up to 100-120 contacts at a time, with automatic delays to avoid account blocking. Perfect for event organizers, businesses, and teams managing large contact lists.",
+    tags: ["Python", "Selenium", "Excel", "Automation", "WhatsApp"],
+    color: "#888",
+    size: "small",
+    link: "https://github.com/Pratyakshgupta887qwert/Whatsapp-bulk-messenger.git",
+  },
+  {
+    title: "Loftune",
+    category: "Full-Stack · API",
+    year: "2025",
+    description:
+      "🎧 Mood-based playlist + aesthetic generator. Pick a vibe, get a Spotify playlist, color palette, GIFs, and a quote. Built with React, Tailwind, and public APIs.",
+    tags: ["React", "Tailwind", "Spotify API", "Giphy API", "Quotes API"],
+    color: "#888",
+    size: "small",
+    link: "https://github.com/Pratyakshgupta887qwert/Loftune.git",
+  },
+  {
+    title: "Hauntly",
+    category: "Full-Stack · API",
+    year: "2025",
+    description:
+      "A full-stack anonymous confession platform where users can post, react, and comment — no accounts, no identities. Built with React, Tailwind, and public APIs.",
+    tags: ["React", "Tailwind", "Express", "MongoDB", "REST API"],
+    color: "#888",
+    size: "small",
+    link: "https://github.com/Pratyakshgupta887qwert/Hauntly-confessionsWall.git",
   },
 ];
 
