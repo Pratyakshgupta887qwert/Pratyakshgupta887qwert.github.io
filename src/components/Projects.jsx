@@ -148,7 +148,7 @@ export default function Projects() {
                 <h3 className="text-2xl md:text-3xl font-black text-[#e8e8e8] tracking-tight leading-tight mb-4">
                   {project.title}
                 </h3>
-                <p className="text-sm text-[#555] leading-relaxed">
+                <p className="text-sm text-gray-500 leading-relaxed">
                   {project.description}
                 </p>
               </div>
@@ -158,7 +158,7 @@ export default function Projects() {
                 {project.tags.map((tag, tIdx) => (
                   <span
                     key={tIdx}
-                    className="text-[11px] px-2.5 py-1 rounded-md bg-[#111] text-[#555] border border-[#1a1a1a] font-mono"
+                    className="text-[11px] px-2.5 py-1 rounded-md bg-[#111] text-sky-500 border border-sky-800 font-mono"
                   >
                     {tag}
                   </span>

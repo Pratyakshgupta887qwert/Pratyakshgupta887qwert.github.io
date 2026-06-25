@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
 import Achievements from './components/Achivements';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -22,8 +23,10 @@ export default function App() {
         <Skills />
         <Experience />
         <Certifications />
+        <Contact />
       </main>
-      <Footer />
+        <Footer />
+      
     </div>
   );
 }

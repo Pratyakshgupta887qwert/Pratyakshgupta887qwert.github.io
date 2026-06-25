@@ -121,7 +121,7 @@ export default function Skills() {
             >
               {/* Domain label */}
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-[10px] uppercase tracking-[0.3em] text-[#444] font-semibold w-24 shrink-0">
+                <span className="text-[13px] uppercase tracking-[0.3em] text-[#555] font-bold w-24 shrink-0">
                   {group.domain}
                 </span>
                 <div className="flex-1 h-[1px] bg-[#141414]" />
@@ -144,12 +144,12 @@ export default function Skills() {
                       <img
                         src={`https://skillicons.dev/icons?i=${skill.icon}`}
                         alt={skill.name}
-                        width={28}
+                        width={35}
                         height={28}
                         loading="lazy"
                       />
                     </div>
-                    <span className="text-[10px] text-[#444] group-hover/skill:text-[#888] transition-colors font-mono">
+                    <span className="text-[12px] text-[#555] group-hover/skill:text-[#888] transition-colors font-mono">
                       {skill.name}
                     </span>
                   </div>
