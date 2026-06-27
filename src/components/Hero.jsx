@@ -52,7 +52,7 @@ export default function Hero() {
               View My Work →
             </a>
             <a
-              href="https://drive.google.com/file/d/1rd0et5cm0DrSEjOdyF5c-fzB0fHBnCkX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VYwi_UAAt9g6dIrPU2HiKXIIepKiczWH/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="h-11 px-6 inline-flex items-center justify-center rounded-full border border-[#1e1e1e] text-[#888] font-medium text-sm hover:text-[#e8e8e8] hover:border-[#333] transition-colors"
