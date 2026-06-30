@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Name — large display like Portavia */}
         <div className="mb-6">
           <p className="text-xs uppercase tracking-[0.3em] text-gray-400 font-semibold mb-3">
-            Full-Stack & .NET Developer & ML Engineer
+            Full-Stack Developer (Java & .NET) | AI & Machine Learning Engineer
           </p>
           <h1 className="text-[clamp(3rem,10vw,8rem)] font-black leading-none tracking-tight text-[#e8e8e8] uppercase">
             PRATYAKSH

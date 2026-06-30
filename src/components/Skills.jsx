@@ -6,7 +6,7 @@ const SKILL_GROUPS = [
     skills: [
       { name: "Html", icon: "html" },
       { name: "React", icon: "react" },
-      { name: "Next.js", icon: "nextjs" },
+      // { name: "Next.js", icon: "nextjs" },
       { name: "TypeScript", icon: "typescript" },
       { name: "CSS", icon: "css" },
       { name: "Tailwind", icon: "tailwind" },
@@ -27,7 +27,7 @@ const SKILL_GROUPS = [
     domain: "Backend",
     skills: [
       { name: "SpringBoot", icon: "spring" },
-      { name: "Node.js", icon: "nodejs" },
+      // { name: "Node.js", icon: "nodejs" },
       { name: "ASP.NET", icon: "dotnet" },
       { name: "FastAPI", icon: "fastapi" },
       { name: "Postman", icon: "postman" },
