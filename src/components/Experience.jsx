@@ -76,12 +76,12 @@ export default function Experience() {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         {/* Section header */}
         <div className="mb-14">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-2">
+          <p className="text-xs uppercase tracking-[0.3em] text-[var(--text-soft)] font-semibold mb-2">
             Background
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-[#e8e8e8] uppercase leading-none">
+          <h2 className="text-4xl md:text-5xl font-black text-[var(--text)] uppercase leading-none">
             EXPERIENCE &amp;{" "}
-            <span style={{ WebkitTextStroke: "1.5px #333", color: "transparent" }}>
+            <span style={{ WebkitTextStroke: "1.5px var(--muted)", color: "transparent" }}>
               JOURNEY
             </span>
           </h2>
@@ -96,13 +96,13 @@ export default function Experience() {
                 onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
                 className={`rounded-2xl border cursor-pointer transition-all duration-300 overflow-hidden ${
                   expandedIndex === index
-                    ? 'border-[#c8f135]/20 bg-[#0f0f0f]'
-                    : 'border-[#141414] bg-[#0d0d0d] hover:border-[#1e1e1e]'
+                    ? 'border-[var(--accent)]/20 bg-[var(--surface-2)]'
+                    : 'border-[var(--border)] bg-[var(--surface)] hover:border-[var(--border-strong)]'
                 }`}
               >
                 <div className="p-5 flex items-start gap-4">
                   {/* Logo */}
-                  <div className="w-10 h-10 rounded-xl bg-[#111] border border-[#1a1a1a] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
+                  <div className="w-10 h-10 rounded-xl bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
                     <img src={item.logo} alt={item.organization} className="w-full h-full object-contain" />
                   </div>
 
@@ -111,35 +111,35 @@ export default function Experience() {
                       <span
                         className={`text-[9px] uppercase tracking-widest font-bold px-2 py-0.5 rounded-md ${
                           item.highlight
-                            ? 'bg-[#c8f135]/10 text-[#c8f135]'
-                            : 'bg-[#111] text-[#444]'
+                            ? 'bg-[var(--accent)]/10 text-[var(--accent)]'
+                            : 'bg-[var(--surface)] text-[var(--muted)]'
                         }`}
                       >
                         {item.type}
                       </span>
-                      <span className="text-[10px] font-mono text-[#444]">{item.period}</span>
+                      <span className="text-[10px] font-mono text-[var(--muted)]">{item.period}</span>
                     </div>
-                    <h3 className="text-sm font-bold text-[#e8e8e8] leading-snug">
+                    <h3 className="text-sm font-bold text-[var(--text)] leading-snug">
                       {item.role}
                     </h3>
-                    <p className="text-xs text-[#555] mt-0.5">{item.organization}</p>
+                    <p className="text-xs text-[var(--text-soft)] mt-0.5">{item.organization}</p>
                   </div>
 
-                  <span className={`text-[#444] text-sm mt-1 transition-transform duration-200 shrink-0 ${expandedIndex === index ? 'rotate-180' : ''}`}>
+                  <span className={`text-[var(--muted)] text-sm mt-1 transition-transform duration-200 shrink-0 ${expandedIndex === index ? 'rotate-180' : ''}`}>
                     ↓
                   </span>
                 </div>
 
                 {expandedIndex === index && (
-                  <div className="px-5 pb-5 border-t border-[#141414] pt-4">
-                    <p className="text-sm text-[#666] leading-relaxed mb-3">
+                  <div className="px-5 pb-5 border-t border-[var(--border)] pt-4">
+                    <p className="text-sm text-[var(--text-soft)] leading-relaxed mb-3">
                       {item.details}
                     </p>
                     <div className="flex flex-wrap gap-1.5">
                       {item.tags.map((tag, tIdx) => (
                         <span
                           key={tIdx}
-                          className="text-[10px] px-2 py-0.5 rounded bg-[#111] text-[#444] border border-[#1a1a1a] font-mono"
+                          className="text-[10px] px-2 py-0.5 rounded bg-[var(--surface)] text-[var(--muted)] border border-[var(--border)] font-mono"
                         >
                           {tag}
                         </span>
@@ -153,39 +153,39 @@ export default function Experience() {
 
           {/* Education panel */}
           <div className="lg:col-span-1">
-            <p className="text-[10px] uppercase tracking-[0.3em] text-[#444] font-semibold mb-4">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-[var(--muted)] font-semibold mb-4">
               Education
             </p>
             <div className="space-y-3">
               {EDUCATION.map((edu, idx) => (
                 <div
                   key={idx}
-                  className="rounded-2xl border border-[#141414] bg-[#0d0d0d] p-5 flex items-start gap-3"
+                  className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5 flex items-start gap-3"
                 >
                   {/* Logo */}
-                  <div className="w-9 h-9 rounded-xl bg-[#111] border border-[#1a1a1a] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
+                  <div className="w-9 h-9 rounded-xl bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
                     <img src={edu.logo} alt={edu.institution} className="w-full h-full object-contain" />
                   </div>
 
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between gap-2 mb-1">
-                      <p className="text-sm font-bold text-[#e8e8e8] leading-snug">{edu.degree}</p>
-                      <span className="text-sm font-black text-[#c8f135] shrink-0">{edu.score}</span>
+                      <p className="text-sm font-bold text-[var(--text)] leading-snug">{edu.degree}</p>
+                      <span className="text-sm font-black text-[var(--accent)] shrink-0">{edu.score}</span>
                     </div>
-                    <p className="text-xs text-[#555]">{edu.institution}</p>
-                    <p className="text-[10px] font-mono text-[#333] mt-1">{edu.period}</p>
+                    <p className="text-xs text-[var(--text-soft)]">{edu.institution}</p>
+                    <p className="text-[10px] font-mono text-[var(--muted)] mt-1">{edu.period}</p>
                   </div>
                 </div>
               ))}
 
               {/* Open source */}
-              <div className="rounded-2xl border border-[#c8f135]/10 bg-[#c8f135]/5 p-5 flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-[#c8f135]/10 border border-[#c8f135]/20 flex items-center justify-center shrink-0">
+              <div className="rounded-2xl border border-[var(--accent)]/10 bg-[var(--accent)]/5 p-5 flex items-center gap-3">
+                <div className="w-9 h-9 rounded-xl bg-[var(--accent)]/10 border border-[var(--accent)]/20 flex items-center justify-center shrink-0">
                   <img src="open source logo.jpg" alt="GitHub" className="w-5 h-5 object-contain" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#c8f135] mb-0.5">GSSoC 2025–26</p>
-                  <p className="text-xs text-[#666]">Open-Source Contributor — GirlScript Summer of Code</p>
+                  <p className="text-sm font-bold text-[var(--accent)] mb-0.5">GSSoC 2025–26</p>
+                  <p className="text-xs text-[var(--text-soft)]">Open-Source Contributor — GirlScript Summer of Code</p>
                 </div>
               </div>
             </div>
@@ -195,3 +195,5 @@ export default function Experience() {
     </section>
   );
 }
+
+

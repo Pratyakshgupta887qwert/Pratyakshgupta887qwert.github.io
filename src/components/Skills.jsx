@@ -99,12 +99,12 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         {/* Section header */}
         <div className="mb-14">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-2">
+          <p className="text-xs uppercase tracking-[0.3em] text-[var(--text-soft)] font-semibold mb-2">
             Technical Expertise
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-[#e8e8e8] uppercase leading-none">
+          <h2 className="text-4xl md:text-5xl font-black text-[var(--text)] uppercase leading-none">
             SKILLS &amp;{" "}
-            <span style={{ WebkitTextStroke: "1.5px #333", color: "transparent" }}>
+            <span style={{ WebkitTextStroke: "1.5px var(--muted)", color: "transparent" }}>
               STACK
             </span>
           </h2>
@@ -121,10 +121,10 @@ export default function Skills() {
             >
               {/* Domain label */}
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-[13px] uppercase tracking-[0.3em] text-[#555] font-bold w-24 shrink-0">
+                <span className="text-[13px] uppercase tracking-[0.3em] text-[var(--text-soft)] font-bold w-24 shrink-0">
                   {group.domain}
                 </span>
-                <div className="flex-1 h-[1px] bg-[#141414]" />
+                <div className="flex-1 h-[1px] bg-[var(--border)]" />
               </div>
 
               {/* Icon row */}
@@ -137,9 +137,9 @@ export default function Skills() {
                     <div
                       className={`w-12 h-12 rounded-xl flex items-center justify-center border transition-all duration-200 ${
                         activeGroup === gIdx
-                          ? 'border-[#2a2a2a] bg-[#111]'
-                          : 'border-[#141414] bg-[#0d0d0d]'
-                      } group-hover/skill:border-[#c8f135]/30 group-hover/skill:bg-[#111]`}
+                          ? 'border-[var(--border-strong)] bg-[var(--surface-2)]'
+                          : 'border-[var(--border)] bg-[var(--surface)]'
+                      } group-hover/skill:border-[var(--accent)]/30 group-hover/skill:bg-[var(--surface)]`}
                     >
                       <img
                         src={`https://skillicons.dev/icons?i=${skill.icon}`}
@@ -149,7 +149,7 @@ export default function Skills() {
                         loading="lazy"
                       />
                     </div>
-                    <span className="text-[12px] text-[#555] group-hover/skill:text-[#888] transition-colors font-mono">
+                    <span className="text-[12px] text-[var(--text-soft)] group-hover/skill:text-[var(--text-soft)] transition-colors font-mono">
                       {skill.name}
                     </span>
                   </div>
@@ -162,3 +162,5 @@ export default function Skills() {
     </section>
   );
 }
+
+
