@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Name — large display like Portavia */}
         <div className="mb-6">
           <p className="text-xs uppercase tracking-[0.3em] text-gray-400 font-semibold mb-3">
-            Full-Stack & .NET Developer & ML Engineer
+            Full-Stack Developer (Java & .NET) | AI & Machine Learning Engineer
           </p>
           <h1 className="text-[clamp(3rem,10vw,8rem)] font-black leading-none tracking-tight text-[#e8e8e8] uppercase">
             PRATYAKSH
@@ -52,7 +52,7 @@ export default function Hero() {
               View My Work →
             </a>
             <a
-              href="https://drive.google.com/file/d/1rd0et5cm0DrSEjOdyF5c-fzB0fHBnCkX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VYwi_UAAt9g6dIrPU2HiKXIIepKiczWH/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="h-11 px-6 inline-flex items-center justify-center rounded-full border border-[#1e1e1e] text-[#888] font-medium text-sm hover:text-[#e8e8e8] hover:border-[#333] transition-colors"
@@ -65,7 +65,7 @@ export default function Hero() {
         {/* Stats bar */}
         <div className="mt-16 pt-8 border-t border-[#111] grid grid-cols-3 gap-6 max-w-md">
           <div>
-            <p className="text-2xl font-black text-[#c8f135]">6+</p>
+            <p className="text-2xl font-black text-[#c8f135]">7+</p>
             <p className="text-xs text-[#555] mt-0.5 uppercase tracking-wider">Projects</p>
           </div>
           <div>

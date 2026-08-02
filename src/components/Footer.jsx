@@ -5,9 +5,9 @@ export default function Footer() {
     <footer id="contact" className="mt-24">
       {/* CTA Section */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 py-20">
-        <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-4">
+        {/* <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-4">
           Get In Touch
-        </p>
+        </p> */}
         <h2 className="text-4xl md:text-6xl font-black text-[#e8e8e8] uppercase leading-none mb-10">
           LET'S BUILD
           <br />
@@ -16,7 +16,7 @@ export default function Footer() {
           </span>
         </h2>
 
-        <div className="flex flex-col sm:flex-row gap-3 mb-16">
+        {/* <div className="flex flex-col sm:flex-row gap-3 mb-16">
           <a
             href="mailto:pratyakshgupta887@gmail.com"
             className="h-12 px-7 inline-flex items-center justify-center rounded-full bg-[#c8f135] text-[#0a0a0a] font-bold text-sm hover:bg-[#d4f550] transition-colors"
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         {/* Social links */}
-        <div className="flex items-center gap-6 text-sm">
+        {/* <div className="flex items-center gap-6 text-sm">
           <a
             href="https://www.linkedin.com/in/pratyaksh-gupta"
             target="_blank"
@@ -67,7 +67,7 @@ export default function Footer() {
           >
             +91 99272 30076
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom bar */}
