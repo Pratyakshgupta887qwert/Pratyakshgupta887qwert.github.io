@@ -53,12 +53,13 @@ export default function Contact() {
                 href="mailto:pratyakshgupta887@gmail.com"
                 className="flex items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 hover:border-[var(--accent)]/20 hover:bg-[var(--accent)]/5 transition-all duration-200 group"
               >
-                <div className="w-9 h-9 rounded-xl bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0 group-hover:border-[var(--accent)]/20 transition-colors">
+                <div className="w-9 h-9 rounded-xl bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center shrink-0 group-hover:border-[var(--accent)]/20 transition-colors overflow-hidden p-1.5">
+                  <img src="https://skillicons.dev/icons?i=gmail" alt="LinkedIn" className="w-full h-full object-contain" />
+                </div>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-soft)" strokeWidth="1.5">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
                   </svg>
-                </div>
                 <div className="min-w-0">
                   <p className="text-[10px] uppercase tracking-widest text-[var(--muted)] font-semibold">Email</p>
                   <p className="text-xs text-[var(--text-soft)] truncate group-hover:text-[var(--accent)] transition-colors">pratyakshgupta887@gmail.com</p>
