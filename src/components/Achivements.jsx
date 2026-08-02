@@ -28,12 +28,12 @@ export default function Achievements() {
 
         {/* Section header */}
         <div className="mb-10">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#555] font-semibold mb-2">
+          <p className="text-xs uppercase tracking-[0.3em] text-[var(--text-soft)] font-semibold mb-2">
             Recognition
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-[#e8e8e8] uppercase leading-none">
+          <h2 className="text-4xl md:text-5xl font-black text-[var(--text)] uppercase leading-none">
             ACHIEVEMENTS &amp;{" "}
-            <span style={{ WebkitTextStroke: "1.5px #333", color: "transparent" }}>
+            <span style={{ WebkitTextStroke: "1.5px var(--muted)", color: "transparent" }}>
               HONORS
             </span>
           </h2>
@@ -44,13 +44,13 @@ export default function Achievements() {
           {ACHIEVEMENTS.map((item, i) => (
             <div
               key={i}
-              className="rounded-2xl border border-[#1a1a1a] bg-[#c8f135]/5 hover:bg-[#c8f135]/[0.07] hover:border-[#c8f135]/20 transition-all duration-300 p-6"
+              className="rounded-2xl border border-[var(--border)] bg-[var(--accent)]/5 hover:bg-[var(--accent)]/[0.07] hover:border-[var(--accent)]/20 transition-all duration-300 p-6"
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 
                 {/* Left — logo + text */}
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-[#111] border border-[#1e1e1e] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
+                  <div className="w-12 h-12 rounded-xl bg-[var(--surface)] border border-[var(--border-strong)] flex items-center justify-center shrink-0 overflow-hidden p-1.5">
                     <img
                       src={item.logo}
                       alt={item.logoAlt}
@@ -58,20 +58,20 @@ export default function Achievements() {
                     />
                   </div>
                   <div>
-                    <p className="font-black text-[#e8e8e8] text-sm leading-snug">
+                    <p className="font-black text-[var(--text)] text-sm leading-snug">
                       {item.title}
                     </p>
-                    <p className="text-xs text-[#555] mt-0.5">
+                    <p className="text-xs text-[var(--text-soft)] mt-0.5">
                       {item.org} · <span className="font-mono">{item.date}</span>
                     </p>
-                    <p className="text-[11px] text-[#444] mt-1 italic">
+                    <p className="text-[11px] text-[var(--muted)] mt-1 italic">
                       {item.tagline}
                     </p>
                   </div>
                 </div>
 
                 {/* Right — tag pill */}
-                <span className="shrink-0 text-[10px] text-[#c8f135] font-bold tracking-widest uppercase px-3 py-1.5 rounded-full border border-[#c8f135]/20 bg-[#c8f135]/10 self-start sm:self-center whitespace-nowrap">
+                <span className="shrink-0 text-[10px] text-[var(--accent)] font-bold tracking-widest uppercase px-3 py-1.5 rounded-full border border-[var(--accent)]/20 bg-[var(--accent)]/10 self-start sm:self-center whitespace-nowrap">
                   {item.tag}
                 </span>
               </div>
@@ -82,3 +82,5 @@ export default function Achievements() {
     </section>
   );
 }
+
+
